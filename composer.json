@@ -1,0 +1,19 @@
+{
+    "name": "athov/ratchet-plugin",
+    "type": "october-plugin",
+    "description": "Websocket broadcasting for OctoberCMS.",
+    "homepage": "https://github.com/Athov/ratchet-plugin",
+    "keywords": ["october", "octobercms", "ratchet", "zmq", "websockets", "socket"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Atanas Harapov",
+            "email": "nakata9302@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "askedio/laravel-ratchet": "1.4",
+        "pelim/laravel-zmq": "^1.0"
+    }
+}

@@ -1,0 +1,6 @@
+plugin:
+    name: 'athov.ratchet::lang.plugin.name'
+    description: 'athov.ratchet::lang.plugin.description'
+    author: 'Atanas Harapov'
+    icon: oc-icon-server
+    homepage: 'https://github.com/Athov/ratchet-plugin'
