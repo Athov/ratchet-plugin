@@ -28,7 +28,7 @@ Websocket broadcasting for OctoberCMS.
 php artisan ratchet:serve --driver=WsServer -z
 ```
 ## Examples
-* Broadcasting
+* Broadcasting : plugins/athov/ratchet/controllers/TestEvents.php
     ```
     broadcast(new ExampleRatchetEvent('test', [
         'title' => 'Test',
@@ -95,7 +95,7 @@ php artisan ratchet:serve --driver=WsServer -z
         }
     }
     ```
-* JavaScript Subscriber
+* JavaScript Subscriber : plugins/athov/ratchet/assets/js/websockets-subscriber.js
     ```
      if(!("WebSocket" in window)){
         console.log('WebSocket not supported.')
