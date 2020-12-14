@@ -23,7 +23,8 @@ Websocket broadcasting for OctoberCMS.
             ],
         ],
         ```
-## How to start
+
+## How to start ratchet server
 ```
 php artisan ratchet:serve --driver=WsServer -z
 ```
@@ -140,7 +141,7 @@ php artisan ratchet:serve --driver=WsServer -z
 * https://github.com/Askedio/laravel-ratchet
 * https://github.com/pelim/laravel-zmq
 
-To change default configs copy the data from plugins/athov/ratchet/config to config/athov/ratchet
+To change default config copy the files from plugins/athov/ratchet/config to config/athov/ratchet
 
 For more information about config
 [OctoberCMS Documentations](https://octobercms.com/docs/plugin/settings#file-configuration)
