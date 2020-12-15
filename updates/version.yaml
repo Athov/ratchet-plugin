@@ -1,2 +1,4 @@
 1.0.1:
-    - Initialize plugin.
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Fix ratchet provider not registering after installing from OctoberCMS store'
