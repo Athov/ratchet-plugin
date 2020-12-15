@@ -12,7 +12,7 @@ return [
     */
 
     'class'           => \Athov\Ratchet\Classes\SimplePusher::class,
-    'host'            => '0.0.0.0', // Prepend tls:// to host address to enable SSL/TLS. Example: tls://0.0.0.0
+    'host'            => '127.0.0.1', // Prepend tls:// to host address to enable SSL/TLS. Example: tls://0.0.0.0
     'port'            => '8080',
     'connectionLimit' => false,
     'throttle'        => [

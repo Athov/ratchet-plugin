@@ -2,3 +2,5 @@
     - 'Initialize plugin.'
 1.0.2:
     - 'Fix ratchet provider not registering after installing from OctoberCMS store'
+1.0.3:
+    - 'Fix zmq provider not registering after installing from OctoberCMS store'
